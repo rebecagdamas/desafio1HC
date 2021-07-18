@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: url(../assets/background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+  
+  the blurred div, so we will use a sibling element instead like this
+  
+  body {
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .blur {
+    overflow: hidden;
+    filter: blur(10px);
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 50px;
+  }
+  
+  #conteudo{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 50%;
+  
+    text-align: center;
+    color: #ffffff;
+    margin-top: 57px;
+    font-family: 'Roboto', serif;
+  }
+  
+  .text-container{
+    justify-content: flex-start;
+    padding: 16px;
+    line-height: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .input-container{
+    position: inherit;
+    left: 20%;
+    top: 275px;
+    justify-content: center;
+    width: 75%;
+    max-width: 400px;
+    margin-top: 16px;
+    padding: 16px;
+    background: whitesmoke;
+    border-radius: 8px;
+  }
+  
+  form{
+    background:whitesmoke;
+    display: grid;
+    opacity: 0.8;
+  } 
+  
+  input{
+    color: whitesmoke;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  footer{
+    line-height: 24px;
+    bottom: 0;
+    position: absolute;
+    color: whitesmoke;
+    width: 100%;
+    text-align: right;
+  }
+  
+   h2{
+     font-size: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  h3{
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  p{
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .btn {
+    background-color: white;
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  
